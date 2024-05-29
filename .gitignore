@@ -1,1 +1,25 @@
 .metadata/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/quiz-app/node_modules
+frontend/quiz-app/.pnp
+frontend/quiz-app/.pnp.js
+
+# testing
+frontend/quiz-app/coverage
+
+# production
+frontend/quiz-app/build
+
+# misc
+frontend/quiz-app/.DS_Store
+frontend/quiz-app/.env.local
+frontend/quiz-app/.env.development.local
+frontend/quiz-app/.env.test.local
+frontend/quiz-app/.env.production.local
+
+frontend/quiz-app/npm-debug.log*
+frontend/quiz-app/yarn-debug.log*
+frontend/quiz-app/yarn-error.log*
